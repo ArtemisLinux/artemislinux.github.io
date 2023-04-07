@@ -1092,6 +1092,19 @@ section {
   }
 }
 .button1 {
+  background-color: #149ddd; /* blue */
+  border-radius: 50px;
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  float: right;
+}
+.button1:hover {
   background-color: #04AA6D; /* Green */
   border-radius: 50px;
   border: none;
@@ -1106,7 +1119,6 @@ section {
 }
 .button2 {
   background-color: #149ddd; /* blue */
-  hover-color: #04AA6D; /* Green */
   border-radius: 50px;
   border: none;
   color: white;
