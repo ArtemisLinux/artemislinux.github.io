@@ -940,7 +940,13 @@ section {
 .contact .php-email-form .sent-message {
   display: none;
   color: #fff;
-  background: #18d26e;
+  background: #18d26e;     <br>
+  <div>
+  <p>Clone the ISO repo to build your own ISO</p>
+  </div>
+  <div class="codebox">
+  <p>git clone https://github.com/ArtemisLinux/buildiso.git</p>
+  </div>
   text-align: center;
   padding: 15px;
   font-weight: 600;
@@ -1150,3 +1156,17 @@ section {
 .cons {
    float: right;
 }
+
+.codebox {
+  background-color: lightgray;
+  border-radius: 10px;
+  padding: 10px;
+  float: left;
+  margin: 20px 0px;
+  width: 600px;
+  height: 50px; 
+  text-align: center; 
+  color: black;
+  border: 3px solid #149ddd;
+}
+
